@@ -34,7 +34,7 @@ afterConnection = () => {
 };
 
 //inquirer prompt for first action
-const promptUser = () =>
+const promptUser = () => {
   inquirer.prompt([
     {
       type: 'list',
@@ -121,7 +121,7 @@ const promptUser = () =>
 
 //function to show all departments go to database and get all departments - mysql
 showDepartments = () => {
-  console.log(Showing all department...\n');
+  console.log('Showing all department...\n');
   const sql = 'SELECT department.id AS id, department.name AS department From department';
   
   connection.promise().query(sql, (err, rows) => {
@@ -129,7 +129,7 @@ showDepartments = () => {
     console.table(rows);
     promptUser();
   });
-});
+};
 
 //function to show all roles
 showRoles = () => {

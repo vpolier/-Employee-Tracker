@@ -1,5 +1,3 @@
-
-
 {
   "name": "employee-tracker",
   "version": "1.0.0",
@@ -11,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicolewallace09/employee-tracker.git"
+    "url": "git+https://github.com/vpolier/employee-tracker.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nicolewallace09/employee-tracker/issues"
+    "url": "https://github.com/vpolier/employee-tracker/issues"
   },
-  "homepage": "https://github.com/nicolewallace09/employee-tracker#readme",
+  "homepage": "https://github.com/vpolier/employee-tracker#readme",
   "dependencies": {
     "console.table": "^0.10.0",
     "dotenv": "^8.2.0",
