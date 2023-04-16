@@ -13,8 +13,8 @@ const connection = mysql.createConnection({
   // MySQL username,
   user: 'root',
   // MySQL password
-  password: 'password',
-  database: 'employee_cms_hw'
+  password: 'T&ADanaiOlier22',
+  database: 'employee_db'
 });
 
 connection.connect(err => {
@@ -57,8 +57,8 @@ const promptUser = () => {
   },
 ])
 
-  .then((response) => {
-    const { choices } = response;
+  .then((answer) => {
+    const { choices } = answer;
     // check what user selected handle the choice
     if (choices === "View all departments") {
       showDepartments();
@@ -97,15 +97,15 @@ const promptUser = () => {
     }
 
     if (choices === "Delete a department") {
-      deliteDepartment();
+      deleteDepartment();
     }
 
-    if (choices === "Delite a role") {
+    if (choices === "Delete a role") {
       deleteRole();
     }
 
     if (choices === "Delete an employee") {
-      deleteEnployee();
+      deleteEmployee();
     }
 
 

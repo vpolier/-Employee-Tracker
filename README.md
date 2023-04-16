@@ -14,11 +14,11 @@ A command-line application to manage a company's employee database, using Node.j
 
 
 ## Installation
-The user should clone the repository from GitHub. This application requires Node.js, Inquirer, console.table and mysql2. To start application run npm start. To view database from MySQL run mysql -u root -p.
+The user should clone the repository from GitHub. This application requires Node.js, Inquirer, console.table and mysql2. To start application run npm start or node index. To view database from MySQL run mysql -u root -p.
 
 ## Usage
 This application will allow users to view, add, and edit employees, roles, departments, and managers.
-View walk through video via Screencastify
+View walk through video via https://drive.google.com/file/d/1yvsqONu1q_-j0FK0-rFvilHoQ0i84sEK/view
 
 ## Licence
 This project is license under MIT

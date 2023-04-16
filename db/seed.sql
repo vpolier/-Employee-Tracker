@@ -3,6 +3,7 @@ VALUES
 ('IT'),
 ('Finance & Accounting'),
 ('Sales & Marketing'),
+('Maintenance')
 ('Operations');
 
 INSERT INTO role (title, salary, department_id)
@@ -15,6 +16,7 @@ VALUES
 ('Sales Lead', 90000, 3),
 ('Project Manager', 100000, 4),
 ('Operations Manager', 90000, 4);
+('Maintenance', 60000, 5);
 
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
