@@ -5,7 +5,7 @@ const mysql = require('mysql2');
 //import console.table
 const cTable = require('console.table');
 
-require('dotenv').config()
+require('dotenv').config();
 
 //connection to database
 const connection = mysql.createConnection({
@@ -13,12 +13,12 @@ const connection = mysql.createConnection({
   // MySQL username,
   user: 'root',
   // MySQL password
-  password: 'T&ADanaiOLier22',
+  password: 'password',
   database: 'employee_cms_hw'
 });
 
 connection.connect(err => {
-  if(err) throw err;
+  if (err) throw err;
   console.log('connected as id' + connection.threadId);
   afterConnection();
 });
